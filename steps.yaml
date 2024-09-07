@@ -1,0 +1,7 @@
+1. check if our browser supports geolocation api.
+2. high accuracy, 5 sec timeout and no caching.
+3. emit lattitude and longitude by socket via send-location. log any errors to console.
+4. intialise map centre at origin and zoom level of 15 leaflet. add Openstreetmap tiles to the map.
+5. create any empty object marker.
+6. while recieving location data via socket, extract id, lattitude, longitude and centre the map on new location.
+7. update  marker. 
